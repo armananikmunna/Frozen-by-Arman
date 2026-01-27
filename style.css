@@ -13,18 +13,18 @@ body {
 header {
   text-align: center;
   padding: 40px 20px;
-  animation: fadeDown 1s ease;
-}
-
-header h1 {
   height: 15vh;
   background-image: url("images/header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  animation: fadeDown 1s ease;
+}
+
+header h1 {
   font-size: 32px;
   margin-bottom: 15px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 .social a {
