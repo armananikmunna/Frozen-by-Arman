@@ -32,7 +32,19 @@ header h1 {
 }
 
 .social a:hover {
-  color: black;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  .social a {
+    color: white;
+  }
+
+  .social a:hover {
+    color: white;
+  }
+}
+
 }
 .gallery {
   display: grid;
