@@ -32,7 +32,7 @@ header h1 {
 }
 
 .social a:hover {
-  color: black;
+  color: white;
 }
 
 @media (prefers-color-scheme: dark) {
