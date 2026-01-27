@@ -34,16 +34,6 @@ header h1 {
 .social a:hover {
   color: black;
 }
-
-@media (prefers-color-scheme: dark) {
-  .social a {
-    color: white;
-  }
-
-  .social a:hover {
-    color: white;
-  }
-}
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
