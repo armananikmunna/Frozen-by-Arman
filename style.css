@@ -29,20 +29,12 @@ header h1 {
 
 .social a {
   color: black;
+  margin: 0 12px;
+  font-size: 20px;
 }
 
 .social a:hover {
   color: white;
-}
-
-@media (prefers-color-scheme: dark) {
-  .social a {
-    color: white;
-  }
-
-  .social a:hover {
-    color: white;
-  }
 }
 
 }
