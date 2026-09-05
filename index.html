@@ -1,101 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
   <title>FROZEN BY ARMAN</title>
 
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
 
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
+  <!-- =========================
+       HEADER
+  ========================= -->
+
   <header>
+
     <h1>FROZEN BY ARMAN</h1>
+
     <div class="social">
-      <a href="https://instagram.com/armananikmunna" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://facebook.com/armananikmunna" target="_blank"><i class="fab fa-facebook-f"></i></a>
-      <a href="mailto:armananikmunna@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+
+      <a
+        href="https://instagram.com/armananikmunna"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+      >
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a
+        href="https://facebook.com/armananikmunna"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Facebook"
+      >
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <a
+        href="mailto:armananikmunna@gmail.com"
+        aria-label="Email"
+      >
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+
     </div>
+
   </header>
 
+
+  <!-- =========================
+       PHOTO GALLERY
+  ========================= -->
+
   <main class="gallery">
-    <img src="images/01.jpg" onclick="openLightbox(this.src)">
-    <img src="images/02.jpg" onclick="openLightbox(this.src)">
-    <img src="images/03.jpg" onclick="openLightbox(this.src)">
-    <img src="images/04.jpg" onclick="openLightbox(this.src)">
-    <img src="images/05.jpg" onclick="openLightbox(this.src)">
-    <img src="images/39.jpg" onclick="openLightbox(this.src)">
-    <img src="images/49.jpg" onclick="openLightbox(this.src)">
-    <img src="images/41.jpg" onclick="openLightbox(this.src)">
-    <img src="images/54.jpg" onclick="openLightbox(this.src)">
-    <img src="images/40.jpg" onclick="openLightbox(this.src)">
-    <img src="images/45.jpg" onclick="openLightbox(this.src)">
-    <img src="images/48.jpg" onclick="openLightbox(this.src)">
-    <img src="images/47.jpg" onclick="openLightbox(this.src)">
-    <img src="images/43.jpg" onclick="openLightbox(this.src)">
-    <img src="images/46.jpg" onclick="openLightbox(this.src)">
-    <img src="images/52.jpg" onclick="openLightbox(this.src)">
-    <img src="images/53.jpg" onclick="openLightbox(this.src)">
-    <img src="images/50.jpg" onclick="openLightbox(this.src)">
-    <img src="images/44.jpg" onclick="openLightbox(this.src)">
-    <img src="images/42.jpg" onclick="openLightbox(this.src)">
-    <img src="images/51.jpg" onclick="openLightbox(this.src)">
-    <img src="images/06.jpg" onclick="openLightbox(this.src)">
-    <img src="images/07.jpg" onclick="openLightbox(this.src)">
-    <img src="images/08.jpg" onclick="openLightbox(this.src)">
-    <img src="images/09.jpg" onclick="openLightbox(this.src)">
-    <img src="images/10.jpg" onclick="openLightbox(this.src)">
-    <img src="images/11.jpg" onclick="openLightbox(this.src)">
-    <img src="images/12.jpg" onclick="openLightbox(this.src)">
-    <img src="images/13.jpg" onclick="openLightbox(this.src)">
-    <img src="images/14.jpg" onclick="openLightbox(this.src)">
-    <img src="images/15.jpg" onclick="openLightbox(this.src)">
-    <img src="images/16.jpg" onclick="openLightbox(this.src)">
-    <img src="images/17.jpg" onclick="openLightbox(this.src)">
-    <img src="images/18.jpg" onclick="openLightbox(this.src)">
-    <img src="images/19.jpg" onclick="openLightbox(this.src)">
-    <img src="images/20.jpg" onclick="openLightbox(this.src)">
-    <img src="images/21.jpg" onclick="openLightbox(this.src)">
-    <img src="images/22.jpg" onclick="openLightbox(this.src)">
-    <img src="images/23.jpg" onclick="openLightbox(this.src)">
-    <img src="images/24.jpg" onclick="openLightbox(this.src)">
-    <img src="images/25.jpg" onclick="openLightbox(this.src)">
-    <img src="images/26.jpg" onclick="openLightbox(this.src)">
-    <img src="images/27.jpg" onclick="openLightbox(this.src)">
-    <img src="images/28.jpg" onclick="openLightbox(this.src)">
-    <img src="images/29.jpg" onclick="openLightbox(this.src)">
-    <img src="images/30.jpg" onclick="openLightbox(this.src)">
-    <img src="images/31.jpg" onclick="openLightbox(this.src)">
-    <img src="images/32.jpg" onclick="openLightbox(this.src)">
-    <img src="images/33.jpg" onclick="openLightbox(this.src)">
-    <img src="images/34.jpg" onclick="openLightbox(this.src)">
-    <img src="images/35.jpg" onclick="openLightbox(this.src)">
-    <img src="images/36.jpg" onclick="openLightbox(this.src)">
-    <img src="images/37.jpg" onclick="openLightbox(this.src)">
+
+    <img src="images/01.jpg" alt="Frozen by Arman 01">
+    <img src="images/02.jpg" alt="Frozen by Arman 02">
+    <img src="images/03.jpg" alt="Frozen by Arman 03">
+    <img src="images/04.jpg" alt="Frozen by Arman 04">
+    <img src="images/05.jpg" alt="Frozen by Arman 05">
+
+    <img src="images/39.jpg" alt="Frozen by Arman 39">
+    <img src="images/49.jpg" alt="Frozen by Arman 49">
+    <img src="images/41.jpg" alt="Frozen by Arman 41">
+    <img src="images/54.jpg" alt="Frozen by Arman 54">
+    <img src="images/40.jpg" alt="Frozen by Arman 40">
+    <img src="images/45.jpg" alt="Frozen by Arman 45">
+    <img src="images/48.jpg" alt="Frozen by Arman 48">
+    <img src="images/47.jpg" alt="Frozen by Arman 47">
+    <img src="images/43.jpg" alt="Frozen by Arman 43">
+    <img src="images/46.jpg" alt="Frozen by Arman 46">
+    <img src="images/52.jpg" alt="Frozen by Arman 52">
+    <img src="images/53.jpg" alt="Frozen by Arman 53">
+    <img src="images/50.jpg" alt="Frozen by Arman 50">
+    <img src="images/44.jpg" alt="Frozen by Arman 44">
+    <img src="images/42.jpg" alt="Frozen by Arman 42">
+    <img src="images/51.jpg" alt="Frozen by Arman 51">
+
+    <img src="images/06.jpg" alt="Frozen by Arman 06">
+    <img src="images/07.jpg" alt="Frozen by Arman 07">
+    <img src="images/08.jpg" alt="Frozen by Arman 08">
+    <img src="images/09.jpg" alt="Frozen by Arman 09">
+    <img src="images/10.jpg" alt="Frozen by Arman 10">
+    <img src="images/11.jpg" alt="Frozen by Arman 11">
+    <img src="images/12.jpg" alt="Frozen by Arman 12">
+    <img src="images/13.jpg" alt="Frozen by Arman 13">
+    <img src="images/14.jpg" alt="Frozen by Arman 14">
+    <img src="images/15.jpg" alt="Frozen by Arman 15">
+    <img src="images/16.jpg" alt="Frozen by Arman 16">
+    <img src="images/17.jpg" alt="Frozen by Arman 17">
+    <img src="images/18.jpg" alt="Frozen by Arman 18">
+    <img src="images/19.jpg" alt="Frozen by Arman 19">
+    <img src="images/20.jpg" alt="Frozen by Arman 20">
+    <img src="images/21.jpg" alt="Frozen by Arman 21">
+    <img src="images/22.jpg" alt="Frozen by Arman 22">
+    <img src="images/23.jpg" alt="Frozen by Arman 23">
+    <img src="images/24.jpg" alt="Frozen by Arman 24">
+    <img src="images/25.jpg" alt="Frozen by Arman 25">
+    <img src="images/26.jpg" alt="Frozen by Arman 26">
+    <img src="images/27.jpg" alt="Frozen by Arman 27">
+    <img src="images/28.jpg" alt="Frozen by Arman 28">
+    <img src="images/29.jpg" alt="Frozen by Arman 29">
+    <img src="images/30.jpg" alt="Frozen by Arman 30">
+    <img src="images/31.jpg" alt="Frozen by Arman 31">
+    <img src="images/32.jpg" alt="Frozen by Arman 32">
+    <img src="images/33.jpg" alt="Frozen by Arman 33">
+    <img src="images/34.jpg" alt="Frozen by Arman 34">
+    <img src="images/35.jpg" alt="Frozen by Arman 35">
+    <img src="images/36.jpg" alt="Frozen by Arman 36">
+    <img src="images/37.jpg" alt="Frozen by Arman 37">
+
   </main>
 
-  <!-- Lightbox -->
-  <div id="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img" src="">
+
+  <!-- =========================
+       LIGHTBOX
+  ========================= -->
+
+  <div id="lightbox">
+
+    <!-- Close -->
+    <span
+      id="close"
+      aria-label="Close"
+    >
+      &times;
+    </span>
+
+
+    <!-- Previous -->
+    <button
+      id="prev"
+      class="lightbox-btn"
+      aria-label="Previous image"
+    >
+      &#10094;
+    </button>
+
+
+    <!-- Image -->
+    <img
+      id="lightbox-img"
+      src=""
+      alt="Preview"
+    />
+
+
+    <!-- Next -->
+    <button
+      id="next"
+      class="lightbox-btn"
+      aria-label="Next image"
+    >
+      &#10095;
+    </button>
+
+
+    <!-- Image Counter -->
+    <div id="image-counter">
+      1 / 54
+    </div>
+
   </div>
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
 
   <footer>
     © Frozen by Arman
   </footer>
 
-<script>
-function openLightbox(src) {
-  document.getElementById('lightbox').style.display = 'flex';
-  document.getElementById('lightbox-img').src = src;
-}
 
-function closeLightbox() {
-  document.getElementById('lightbox').style.display = 'none';
-}
-</script>
+  <!-- =========================
+       JAVASCRIPT
+  ========================= -->
+
+  <script>
+
+    /* Get all gallery images */
+
+    const images = document.querySelectorAll(".gallery img");
+
+    const lightbox = document.getElementById("lightbox");
+
+    const lightboxImg = document.getElementById("lightbox-img");
+
+    const closeBtn = document.getElementById("close");
+
+    const prevBtn = document.getElementById("prev");
+
+    const nextBtn = document.getElementById("next");
+
+    const imageCounter = document.getElementById("image-counter");
+
+
+    /* Current image */
+
+    let currentIndex = 0;
+
+
+    /* =========================
+       OPEN LIGHTBOX
+    ========================= */
+
+    images.forEach((image, index) => {
+
+      image.addEventListener("click", () => {
+
+        currentIndex = index;
+
+        showImage();
+
+        lightbox.style.display = "flex";
+
+        document.body.style.overflow = "hidden";
+
+      });
+
+    });
+
+
+    /* =========================
+       SHOW IMAGE
+    ========================= */
+
+    function showImage() {
+
+      lightboxImg.src = images[currentIndex].src;
+
+      lightboxImg.alt = images[currentIndex].alt;
+
+      imageCounter.textContent =
+        `${currentIndex + 1} / ${images.length}`;
+
+
+      /* Restart animation */
+
+      lightboxImg.style.animation = "none";
+
+      void lightboxImg.offsetWidth;
+
+      lightboxImg.style.animation =
+        "lightboxImage 0.25s ease";
+
+    }
+
+
+    /* =========================
+       NEXT IMAGE
+    ========================= */
+
+    function nextImage() {
+
+      currentIndex++;
+
+      if (currentIndex >= images.length) {
+
+        currentIndex = 0;
+
+      }
+
+      showImage();
+
+    }
+
+
+    /* =========================
+       PREVIOUS IMAGE
+    ========================= */
+
+    function previousImage() {
+
+      currentIndex--;
+
+      if (currentIndex < 0) {
+
+        currentIndex = images.length - 1;
+
+      }
+
+      showImage();
+
+    }
+
+
+    /* =========================
+       NEXT BUTTON
+    ========================= */
+
+    nextBtn.addEventListener("click", (event) => {
+
+      event.stopPropagation();
+
+      nextImage();
+
+    });
+
+
+    /* =========================
+       PREVIOUS BUTTON
+    ========================= */
+
+    prevBtn.addEventListener("click", (event) => {
+
+      event.stopPropagation();
+
+      previousImage();
+
+    });
+
+
+    /* =========================
+       CLOSE LIGHTBOX
+    ========================= */
+
+    function closeLightbox() {
+
+      lightbox.style.display = "none";
+
+      document.body.style.overflow = "";
+
+    }
+
+
+    closeBtn.addEventListener("click", (event) => {
+
+      event.stopPropagation();
+
+      closeLightbox();
+
+    });
+
+
+    /* =========================
+       CLICK OUTSIDE IMAGE
+    ========================= */
+
+    lightbox.addEventListener("click", (event) => {
+
+      if (event.target === lightbox) {
+
+        closeLightbox();
+
+      }
+
+    });
+
+
+    /* =========================
+       KEYBOARD CONTROLS
+    ========================= */
+
+    document.addEventListener("keydown", (event) => {
+
+      if (lightbox.style.display !== "flex") {
+
+        return;
+
+      }
+
+
+      /* Right Arrow */
+
+      if (event.key === "ArrowRight") {
+
+        nextImage();
+
+      }
+
+
+      /* Left Arrow */
+
+      if (event.key === "ArrowLeft") {
+
+        previousImage();
+
+      }
+
+
+      /* Escape */
+
+      if (event.key === "Escape") {
+
+        closeLightbox();
+
+      }
+
+    });
+
+
+    /* =========================
+       MOBILE SWIPE
+    ========================= */
+
+    let touchStartX = 0;
+
+    let touchEndX = 0;
+
+
+    lightbox.addEventListener(
+      "touchstart",
+      (event) => {
+
+        touchStartX =
+          event.changedTouches[0].screenX;
+
+      },
+      { passive: true }
+    );
+
+
+    lightbox.addEventListener(
+      "touchend",
+      (event) => {
+
+        touchEndX =
+          event.changedTouches[0].screenX;
+
+        handleSwipe();
+
+      },
+      { passive: true }
+    );
+
+
+    function handleSwipe() {
+
+      const swipeDistance =
+        touchEndX - touchStartX;
+
+
+      /* Swipe Left = Next */
+
+      if (swipeDistance < -50) {
+
+        nextImage();
+
+      }
+
+
+      /* Swipe Right = Previous */
+
+      if (swipeDistance > 50) {
+
+        previousImage();
+
+      }
+
+    }
+
+  </script>
 
 </body>
+
 </html>
